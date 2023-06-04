@@ -1,0 +1,14 @@
+.home-logo {
+    /* position: absolute; */
+    z-index: 2;
+    object-fit: contain;
+    width: 100% !important;
+    height: 100%;
+    padding: 0;
+}
+
+.iframe-video {
+    overflow: hidden;
+    width: 100vw;
+    object-fit: cover;
+}

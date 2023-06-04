@@ -1,0 +1,366 @@
+.welcome {
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+
+}
+
+hr {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+row {
+  padding-bottom: 0px !important
+}
+
+.home-logo {
+
+  position: absolute;
+  z-index: 2;
+  object-fit: fill;
+  width: 100%;
+  /* top: 0 */
+  margin: 0;
+  padding: 0;
+
+}
+
+.float {
+  float: right;
+}
+
+.map {
+  height: 50vh;
+  width: 100%;
+}
+
+.service {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 22vh;
+  width: 50%;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  margin: 20px;
+}
+
+
+/* .footer {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  letter-spacing: 2px;
+  font-family: Open Sans, Arial, sans-serif;
+  color: #0b2945;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.resource-card {
+  width: 18rem;
+  height: 30rem;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  display: flex;
+  border-radius: 0.256rem;
+  font-family: Open Sans, Arial, sans-serif;
+  background-color: #eeeeee;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.card-header {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  padding: 0px;
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.bio-container {
+  text-align: center;
+}
+
+.bio-img {
+  width: 200px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 3px;
+  /* margin-left: 15px; */
+  border-radius: 1%;
+
+  object-fit: cover;
+}
+
+h1 {
+  /* font-family: "Urbanist", sans-serif; */
+  font-family: Open Sans, Arial, sans-serif;
+  color: #0b2945;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+h2 {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.new2 {
+  border: 2px solid gray;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #0b2945;
+}
+
+.row {
+  padding: 0;
+}
+
+
+.map-container {
+  width: 50%;
+}
+
+.properties-text {
+  font-family: Open Sans, Arial, sans-serif;
+  color: #0b2945;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 992px) {
+  .bio-img {
+    width: 200px;
+  }
+
+  p.bio-text {
+    margin: 10px 10px 10px 15px !important;
+  }
+
+  .services {
+    margin: 10px 20px 20px !important;
+  }
+
+  .h1 {
+    font-size: 25px;
+  }
+
+  .h2 {
+    font-size: 20px;
+  }
+
+  .contact-page {
+    margin: 180px 30px 0px;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .contact-form-2 {
+    width: 75%;
+  }
+
+  .map-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .small-col {
+    width: 100% !important;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .large-col {
+    width: 100% !important;
+  }
+
+  .disappear {
+    display: none;
+  }
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 500px) {
+  .bio-img {
+    width: 200px;
+  }
+
+  p.bio-text {
+    margin: 3px !important;
+  }
+
+  .services {
+    margin: 3px !important;
+  }
+
+  .h1 {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .h2 {
+    font-size: 13px;
+    ;
+  }
+
+  .h3 {
+    font-size: 14px;
+    text-decoration: underline;
+  }
+}
+
+.carousel-image {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 1.2%;
+}
+
+.resource-name-description {
+  display: flex;
+  justify-content: center;
+}
+
+.resource-name-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Open Sans, Arial, sans-serif;
+  letter-spacing: 2px;
+  color: #0b2945;
+}
+
+.bio-btn {
+  background-color: lightgray;
+  border: solid 1px #0b2945;
+  color: #0b2945;
+  border-radius: 1.5%;
+  font-family: "Urbanist", sans-serif;
+  padding: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bio-btn:hover {
+  color: #0b2945;
+  background-color: lightgreen;
+  /* border: solid 1px white; */
+  border: solid 1px #0b2945;
+}
+
+.card-img {
+  padding: 0px;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 3%;
+  /* border: solid 1px #0b2945; */
+}
+
+.offering-card {
+  border: 1px solid green;
+  border-radius: 1.2%;
+  margin-bottom: 20px;
+}
+
+/* ---logReg--- */
+
+.overlay {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+  border-radius: 3%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.small-col {
+  width: 20%;
+  height: 100%;
+}
+
+.large-col {
+  width: 75%;
+  margin-top: 50px;
+}
+
+.home-body {
+  top: 0;
+  position: absolute;
+  padding: 0px;
+  margin: 0;
+}
+
+
+.welcome {
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.side-labels {
+  color: gray;
+  font-size: 25px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.page-container {
+  margin: 0px 180px 30px 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+.about {
+  font-family: Open Sans, Arial, sans-serif;
+  line-height: 200%;
+  font-size: 25px;
+}
